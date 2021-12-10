@@ -1,0 +1,31 @@
+body{
+    font: 20px Arial, sans-serif;
+}
+.navbar {
+    background-color: #000000;
+}
+
+.encontros{
+    background-color: #999999;
+    color: white;
+}
+
+.motoclubes{
+    background-color: #999999;
+    color: white;
+}
+
+.contato{
+    background-color: #696969;
+    color: white;
+}
+
+.margin{   
+    padding-bottom: 50px;    
+    padding-top: 10px;
+}
+
+.bg-footer{
+    background-color: #000000;
+    color: white;
+}

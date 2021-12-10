@@ -1,20 +1,25 @@
-.body {
-    font: px Verdana, Geneva, Tahoma, sans-serif;
+body{
+    font: 30px Arial, sans-serif;
 }
-
 .navbar {
-    background-color: gray;
+    background-color: #81F7D8;
 }
 
-.nav-link{ 
+.quem-somos{
+    background-color: #999999;
     color: white;
 }
 
-.sobre {
-    background-color: gray;
-    color: white;
+.margin{   
+    padding-bottom: 50px;    
+    padding-top: 10px;
 }
 
-.margin {
-    padding: 10px 50px 50px;
+.parceiros{
+    background-color: #58FAF4;
+}
+
+.bg-footer{
+    background-color: black;
+    color: white;
 }
