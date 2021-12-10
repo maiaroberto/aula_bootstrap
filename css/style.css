@@ -1,0 +1,20 @@
+.body {
+    font: px Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background-color: gray;
+}
+
+.nav-link{ 
+    color: white;
+}
+
+.sobre {
+    background-color: gray;
+    color: white;
+}
+
+.margin {
+    padding: 10px 50px 50px;
+}
