@@ -1,6 +1,19 @@
 body{
-    font: 20px Arial, sans-serif;
+    font: 20px Arial,  Helvetica, sans-serif;
+
+    background: lightblue url("img/RevistaMotoclubesFundo.jpg") repeat;
+    
 }
+
+main {
+    background-color: rgb(220, 236, 241);
+    max-width: 800px;
+    min-width: 400px;
+    margin: auto;
+    padding: 0px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
 .navbar {
     background-color: #000000;
 }

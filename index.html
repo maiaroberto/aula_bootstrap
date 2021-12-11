@@ -1,87 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Minha página</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>    
-        <nav class="navbar navbar-expand-lg navbar-light margin">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Primeira Pagina com Bootstrap</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style_revista.css">
+</head>
+
+<body>
+    <main>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+
             <a class="navbar-brand" href="#">
-                <img src="img/global_labs.png" width="220" height="80">
+                <img src="img/RevisaLogoPreto.jpg" height=80>
             </a>
-            <div class="collapse navbar-collapse">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+                aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="textoNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#quemsomos">Quem somos</a>
+                        <a class="nav-link" href="#">Principal</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                        <a class="nav-link active"
+                            href="https://www.revistamotoclubes.com.br/Encontros_Novo.htm">Encontros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços</a>
+                        <a class="nav-link"
+                            href="https://www.revistamotoclubes.com.br/Motoclubes/Motoclubes_index.htm">Motoclubes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.revistamotoclubes.com.br/Contato.htm">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
                     </li>
                 </ul>
-            <div>
+            </div>
         </nav>
 
-        <section id="quemsomos">
-            <div class="container-fluid quem-somos text-center margin">
-                <h3 class="margin">Quem somos</h3>
-                <img src="img/time.jpeg" class="rounded-circle" width="400" height="400">
-                <h3>Somos um time comprometido com os resultados</h3>
+        <section id="encontros">
+            <div class="container-fluid encontros text-center margin encontros">
+                <h3>Encontros</h3>
+                <img src="img/Eventos2022.jpg" width="400">
             </div>
         </section>
 
-        <selection id="parceiros">
-            <div class="container-fluid text-center margin parceiros">
-                <h3 class="margin">PARCEIROS</h3>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="img/digital_innovation_one.png" width="100%">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="img/digital_innovation_one.png" width="100%">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="img/digital_innovation_one.png" width="100%">
-                        </div>
-                    </div>
-                </div>
+        <section id="motoclubes">
+            <div class="container-fluid motoclube text-center margin">
+                <h3>Motoclubes</h3>
+                <img src="img/Banner_Head.jpg" width="400">
             </div>
-        </selection>
+        </section>
 
-        <section id="servicos">
-            <div class="container-fluid text-center margin servicos">
-                <h3 class="margin">SERVICOS</h3>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            <img src="img/app.jpeg" width="100%">
-                        </div>
-                        <div class="col-lg-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            <img src="img/site.jpg" width="100%">
-                        </div>
-                        <div class="col-lg-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            <img src="img/site2.jpeg" width="100%">
-                        </div>
-                    </div>
-                </div>
+        <section id="contato">
+            <div class="container-fluid contato text-center margin">
+                <h3>Contato</h3>
+                <img src="img/BannerContato.jpg" class="rounded-circle" width="400">
             </div>
         </section>
 
         <footer class="container-fluid text-center bg-footer margin">
-            <p>Desenvolvido por Rafael Galleani</p>
+            <h6>Desenvolvido por Roberto Maia</h6>
         </footer>
 
-    </body>
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    </main>
+</body>
 
 </html>
