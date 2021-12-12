@@ -1,8 +1,6 @@
 body{
     font: 20px Arial,  Helvetica, sans-serif;
-
-    background: lightblue url("img/RevistaMotoclubesFundo.jpg") repeat;
-    
+    background:  blue url("img/RevistaMotoclubesFundo.jpg") repeat;
 }
 
 main {
